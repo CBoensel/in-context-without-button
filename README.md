@@ -4,7 +4,7 @@ Merchants may want to customize the PayPal button to match their design.
 
 The styling options the PayPal JS SDK provides may not be sufficient in such cases.
 
-This is a proof of concept showcasing hos to technically still use the JS SDK (instead of a redirect).
+This is a proof of concept showcasing how to technically still use the JS SDK (instead of a redirect).
 
 This comes with the advantage of still having the "in-context" experience (aka "pop-up" aka "mini-browser").
 
@@ -12,7 +12,7 @@ This comes with the advantage of still having the "in-context" experience (aka "
 
 `PayPalButton.svelte` contains a rough PayPal button integration in Svelte (without implemented callbacks or even server-side references).
 
-`MaskedPayPalButton.svelte` shows how to build your custom PayPal Button that still triggers the in-context flow (~pop-up window).
+`CustomPayPalButton.svelte` shows how to build your custom PayPal Button that still triggers the in-context flow (~pop-up window).
 
 ## How to run the app
 
