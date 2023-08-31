@@ -22,7 +22,7 @@ async function initPayPalButtons(clientID = 'test', containerID, cartTotal = '0.
         createOrder: function (data, actions) {
           // Set up the transaction
           // @info This is just for testing. 
-          // Refer to your server-side integration / your PSP endpoing here 
+          // Refer to your server-side integration / your PSP endpoint here 
           // and return the order id
           return actions.order.create({
             purchase_units: [
@@ -37,7 +37,7 @@ async function initPayPalButtons(clientID = 'test', containerID, cartTotal = '0.
         onApprove: function (data, actions) {
           // Capture order after payment approved
           // @info This is just for testing. 
-          // Refer to your server-side integration / your PSP endpoing here 
+          // Refer to your server-side integration / your PSP endpoint here 
           return actions.order.capture().then(function (details) {
             alert("Payment successful!");
           });
