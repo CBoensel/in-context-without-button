@@ -30,9 +30,9 @@ npm run dev
 
 ## What is the fundamental idea
 
-Since the PayPal button is protected in an iframe, the only option is to stack two buttons behin each other and visually hide the PayPal button on top.
+Since the PayPal button is protected in an iframe, the only option is to stack two buttons behind each other and visually hide the PayPal button on top.
 
 So the steps performed here are:
-1. Ensure both buttons behave the same in all viewports with regards to re-sizing
-2. Stack them with the PayPal button from the JS SDK on top.
-3. Apply oppacity to the PayPal button from the JS SDK on top.
+1. Ensure both buttons (custom and official) behave the same in all viewports with regards to size
+2. Stack them with the official button being on top.
+3. Apply oppacity to the official button.
