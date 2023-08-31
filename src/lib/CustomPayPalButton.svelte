@@ -3,7 +3,6 @@
   import paypalLogo from '../assets/paypal.svg'
 </script>
 
-
 <div class="paypal-button__wrapper">
   <button class="paypal-button__custom-button">
     <img alt="PayPal" class="paypal-button__icon" src="{paypalLogo}">
