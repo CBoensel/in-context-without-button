@@ -10,9 +10,9 @@ This comes with the advantage of still having the "in-context" experience (aka "
 
 ## Are the built-in customizations enough for you
 
-This approach is a hack. 
+The approach shown here is a hack. 
 
-Consider changing the `shape`, `color`, `label`, `height`, etc. in [styling options of the button](https://developer.paypal.com/sdk/js/reference/#link-style) before adapting this approach. 
+Consider changing the `shape`, `color`, `label`, `height`, etc. in the [styling options of the button](https://developer.paypal.com/sdk/js/reference/#link-style) before adopting this approach. 
 
 ## What is the fundamental idea
 
