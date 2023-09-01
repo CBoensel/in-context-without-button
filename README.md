@@ -1,4 +1,4 @@
-# PoC for PayPal In-Context Experience w/o Button
+# PoC for PayPal In-Context w/o Button
 
 Merchants may want to customize the PayPal button to match their design.
 
