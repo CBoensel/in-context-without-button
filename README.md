@@ -8,6 +8,21 @@ This is a proof of concept showcasing how to technically still use the JS SDK (i
 
 This comes with the advantage of still having the "in-context" experience (aka "pop-up" aka "mini-browser").
 
+## Are the built-in customizations enough for you
+
+This approach is a hack. 
+
+Consider changing the `shape`, `color`, and `label` in [styling options of the button](https://developer.paypal.com/sdk/js/reference/#link-style) before adapting this approach. 
+
+## What is the fundamental idea
+
+Since the PayPal button is protected in an iframe (and browsers do not even allow delegating clicks anymore), the only remaining option is to stack two buttons behind each other and visually hide the PayPal button on top.
+
+So the steps performed here are:
+1. Ensure both buttons (custom and official) behave the same in all viewports with regards to size
+2. Stack them with the official button being on top.
+3. Apply oppacity to the official button.
+
 ## What's the relevant code
 
 Check out the [`lib`](./src/lib) folder. 
@@ -31,12 +46,3 @@ Execute the app in dev mode:
 ```bash
 npm run dev
 ```
-
-## What is the fundamental idea
-
-Since the PayPal button is protected in an iframe (and browsers do not even allow delegating clicks anymore), the only remaining option is to stack two buttons behind each other and visually hide the PayPal button on top.
-
-So the steps performed here are:
-1. Ensure both buttons (custom and official) behave the same in all viewports with regards to size
-2. Stack them with the official button being on top.
-3. Apply oppacity to the official button.
