@@ -1,4 +1,4 @@
-# PoC for PayPal In-Context Experience w/o PayPal Button
+# PoC for PayPal In-Context Experience w/o Button
 
 Merchants may want to customize the PayPal button to match their design.
 
@@ -12,7 +12,7 @@ This comes with the advantage of still having the "in-context" experience (aka "
 
 This approach is a hack. 
 
-Consider changing the `shape`, `color`, and `label` in [styling options of the button](https://developer.paypal.com/sdk/js/reference/#link-style) before adapting this approach. 
+Consider changing the `shape`, `color`, `label`, `height`, etc. in [styling options of the button](https://developer.paypal.com/sdk/js/reference/#link-style) before adapting this approach. 
 
 ## What is the fundamental idea
 
