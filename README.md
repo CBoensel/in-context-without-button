@@ -14,7 +14,7 @@ Check out the [`lib`](./src/lib) folder.
 
 [`paypal.js`](./src/lib/paypal.js) is the prototypical client-side JS SDK integration.
 
-[`PayPalButton.svelte`](./src/lib/PayPalButton.svelte) contains a rough PayPal button integration in Svelte (without implemented callbacks or even server-side references).
+[`PayPalButtons.svelte`](./src/lib/PayPalButtons.svelte) contains a rough PayPal button integration in Svelte (without implemented callbacks or even server-side references).
 
 [`CustomPayPalButton.svelte`](./src/lib/CustomPayPalButton.svelte) ultimately shows how to build your custom PayPal Button that (through a trick) still triggers the "in-context" flow.
 
