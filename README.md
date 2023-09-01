@@ -6,7 +6,7 @@ The styling options the PayPal JS SDK provides may not be sufficient in such cas
 
 This is a proof of concept showcasing how to technically still use the JS SDK (instead of a redirect).
 
-This comes with the advantage of still having the "in-context" experience (aka "pop-up" aka "mini-browser").
+This brings the advantage of the "in-context" experience (aka "mini-browser"), which means the buyer doesn't need to leave the checkout page but confirms the PayPal payment in a "pop-up" window.  
 
 ## Are the built-in customizations enough for you
 
