@@ -1,8 +1,6 @@
 # PoC for PayPal In-Context w/o Button
 
-Merchants may want to customize the PayPal button to match their design.
-
-The styling options the PayPal JS SDK provides may not be sufficient in such cases.
+Merchants may want to customize the PayPal button to match their design. The styling options the PayPal JS SDK provides may not be sufficient in such cases. 
 
 This is a proof of concept showcasing how to technically still use the JS SDK (instead of a redirect).
 
