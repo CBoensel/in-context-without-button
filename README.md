@@ -2,7 +2,7 @@
 
 Merchants may want to customize the PayPal button to match their design. The styling options the PayPal JS SDK provides may not be sufficient in such cases. 
 
-This is a proof of concept showcasing how to technically still use the JS SDK (instead of a redirect).
+This is a proof of concept showcasing how to technically still use the JS SDK (instead of a redirect) in such cases.
 
 This brings the advantage of the "in-context" experience (aka "mini-browser"), which means the buyer doesn't need to leave the checkout page but confirms the PayPal payment in a "pop-up" window.  
 
