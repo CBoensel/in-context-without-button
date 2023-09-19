@@ -17,6 +17,15 @@
 <style>
   .paypal-button__wrapper {
     position: relative;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    height: 55px;
+  }
+
+  .paypal-button__wrapper:hover {
+    transition: border-color 0.25s;
+    border: solid 1px #646cff;
   }
 
   .paypal-button__custom-button {
