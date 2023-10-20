@@ -1,11 +1,11 @@
 <script>
-  import PayPalButtons from "./PayPalButtons.svelte"
-  import paypalLogo from '../assets/paypal.svg'
+  import PayPalButtons from "./PayPalButtons.svelte";
+  import paypalLogo from "../assets/paypal.svg";
 </script>
 
 <div class="paypal-button__wrapper">
   <button class="paypal-button__custom-button">
-    <img alt="PayPal" class="paypal-button__icon" src="{paypalLogo}">
+    <img alt="PayPal" class="paypal-button__icon" src={paypalLogo} />
     Pay with PayPal
   </button>
 
@@ -33,6 +33,7 @@
     top: 0;
     left: 0;
     color: #646cff;
+    background-color: #f9f9f9;
     width: 100%;
     height: 55px;
     display: flex;

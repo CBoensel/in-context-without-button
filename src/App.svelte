@@ -1,7 +1,14 @@
 <script>
-  import paypalLogo from './assets/paypal.svg'
-  import CustomPayPalButton from './lib/CustomPayPalButton.svelte'
+  import paypalLogo from "./assets/paypal.svg";
+  import CustomPayPalButton from "./lib/CustomPayPalButton.svelte";
+  import GitHubAnimatedCorner from "./lib/GitHubAnimatedCorner.svelte";
+
+  export let github;
 </script>
+
+<header>
+  <GitHubAnimatedCorner {github} />
+</header>
 
 <main>
   <div>
@@ -16,7 +23,9 @@
   </div>
 
   <p>
-    Check out <a href="https://developer.paypal.com/sdk/js/" target="_blank" rel="noreferrer">PayPal Developer JavaScript SDK</a>, the official JS SDK documentation!
+    Check out <a href="https://developer.paypal.com/sdk/js/" target="_blank" rel="noreferrer"
+      >PayPal Developer JavaScript SDK</a
+    >, the official JS SDK documentation!
   </p>
 
   <p class="read-the-docs">
